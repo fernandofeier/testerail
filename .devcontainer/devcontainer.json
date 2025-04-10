@@ -1,0 +1,11 @@
+{
+  "name": "HTML Preview Dev",
+  "postCreateCommand": "python3 -m http.server 5500",
+  "portsAttributes": {
+    "5500": {
+      "label": "Live Preview",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "forwardPorts": [5500]
+}
